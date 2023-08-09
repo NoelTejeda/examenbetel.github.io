@@ -1,5 +1,11 @@
 
 
+@media (max-width: 1080px) {
+    /* Aquí puedes agregar estilos específicos para pantallas con un ancho máximo de 1080px */
+    .info_box, .quiz_box {
+        width: 90%;
+    }
+}
 
     /* importando google fonts */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
