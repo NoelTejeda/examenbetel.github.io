@@ -7,6 +7,13 @@
     }
 }
 
+@media (max-width: 600px) {
+    /* Aquí puedes agregar estilos específicos para pantallas con un ancho máximo de 1080px */
+    .info_box, .quiz_box {
+        width: 100%;
+    }
+}
+
     /* importando google fonts */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
 *{
@@ -17,7 +24,7 @@
 }
 
 body{
-    background:#721c24;
+    background:#0263ca ;
 }
 
 ::selection{
@@ -46,7 +53,7 @@ body{
     transform: translate(-50%, -50%) scale(1);
 }
 
-.start_btn button{
+/* .start_btn button{
     font-size: 25px;
     font-weight: 500;
     color: #007bff;
@@ -56,7 +63,7 @@ body{
     border-radius: 5px;
     background: #fff;
     cursor: pointer;
-}
+} */
 
 .info_box{
     width: 540px;
